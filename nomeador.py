@@ -148,8 +148,7 @@ def main(args):
         LB = args.lookback
         modelname = args.train_model
         x, y = generate_windows(padded, LB, total_chars=total_chars)
-        h, m = train(x, y, total_chars=total_chars+1, epochs=400,
-            modelname=modelname)
+        h, m = train(x, y, total_chars=total_chars+1, modelname=modelname)
 
 
 if __name__ == '__main__':
