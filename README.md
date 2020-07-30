@@ -29,10 +29,16 @@ optional arguments:
 This repository is intended to be replicated in the future, using GAN's instead of LSTM's.
 
 Examples:
+
 `python -ga`
+
 `python -go 3`
+
 `python -t teste -l 10`
+
 `python -ga -m teste -l 10`
+
+-
 
 Remember, if you train a new model `-t example` using some `--lookback == L != 7`, it is necessary to specify `-l L` when using `-m example`.
 
