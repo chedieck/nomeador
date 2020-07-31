@@ -4,7 +4,7 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 def get_names(sex, freq=0.03):
-    dataset = pd.read_csv('grupos.csv')
+    dataset = pd.read_csv('nomes.csv')
     todas_mulheres = dataset[dataset.classification == 'F'].sort_values('frequency_female', ascending=0)
     todos_homens = dataset[dataset.classification == 'M'].sort_values('frequency_male', ascending=0)
 
