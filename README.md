@@ -1,6 +1,6 @@
 # Nomeador
 
-Simple name generator with LSTM's.
+Simple brazilian name generator with LSTM's.
 -
 ```
 usage: nomeador.py [-h] [-gn GENERATE_NAMES] [-go GENERATE_ORIGINALS] [-ga]
@@ -26,7 +26,7 @@ optional arguments:
                         <model>.h5 to be used on prediciton, defaults is default
 ```
 
-This repository is intended to be replicated in the future, using GAN's instead of LSTM's.
+_This repository is intended to be replicated in the future, using GAN's instead of LSTM's._
 
 Examples:
 
