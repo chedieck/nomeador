@@ -1,4 +1,4 @@
-# Nomeador
+# nomeador
 
 Simple brazilian name generator with LSTM's.
 -
